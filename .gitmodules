@@ -1,0 +1,4 @@
+[submodule "Authentication-Service"]
+	path = Authentication-Service
+	url = https://github.com/Smart-Pot/Authentication-Service
+	branch = master
