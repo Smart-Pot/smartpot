@@ -2,3 +2,23 @@
 	path = Authentication-Service
 	url = https://github.com/Smart-Pot/Authentication-Service
 	branch = master
+[submodule "Comment-Service"]
+	path = Comment-Service
+	url = https://github.com/Smart-Pot/Comment-Service
+	branch = master
+[submodule "Post-Service"]
+	path = Post-Service
+	url = https://github.com/Smart-Pot/Post-Service
+	branch = master
+[submodule "Search-Service"]
+	path = Search-Service
+	url = https://github.com/Smart-Pot/Search-Service
+	branch = master
+[submodule "Device-Monitor-Service"]
+	path = Device-Monitor-Service
+	url = https://github.com/Smart-Pot/Device-Monitor-Service
+	branch = master
+[submodule "Notification-Service"]
+	path = Notification-Service
+	url = https://github.com/Smart-Pot/Notification-Service
+	branch = master
