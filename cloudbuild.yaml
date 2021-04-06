@@ -7,9 +7,6 @@ steps:
         "http://github.com/${_PROJECT}/${_REPO_NAME}",
       ]
 
-  - name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "gcr.io/$PROJECT_ID/gcb-docker-compose:latest", "."]
-
   - name: "docker/compose:1.15.0"
     args: ["up", "-f", "./docker/docker-compose.yml", "-d"]
     env:
