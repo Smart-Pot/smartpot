@@ -4,7 +4,7 @@ steps:
       [
         "clone",
         "--recurse-submodules",
-        "http://github.com/${_PROJECT}/${_REPO}",
+        "http://github.com/${_PROJECT}/${_REPO_NAME}",
       ]
 
   - name: "gcr.io/cloud-builders/docker"
