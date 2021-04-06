@@ -22,3 +22,6 @@
 	path = Notification-Service
 	url = https://github.com/Smart-Pot/Notification-Service
 	branch = master
+[submodule "docker"]
+	path = docker
+	url = https://github.com/Smart-Pot/docker
