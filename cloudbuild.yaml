@@ -8,7 +8,7 @@ steps:
       ]
 
   - name: "docker/compose:latest"
-    args: ["-f", "~/docker/docker-compose.yml", "up", "-d"]
+    args: ["-f", "docker/docker-compose.yml", "up", "-d"]
     env:
       - "PROJECT_ID=$PROJECT_ID"
 
