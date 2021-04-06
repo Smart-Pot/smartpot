@@ -1,5 +1,5 @@
 steps:
-  - name: "gcr.io/cloud-builds/git"
+  - name: "gcr.io/cloud-builders/git"
     args:
       [
         "clone",
