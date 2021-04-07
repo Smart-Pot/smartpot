@@ -11,6 +11,7 @@ steps:
     args: ["-f", "/workspace/smartpot/docker/docker-compose.yml", "up", "-d"]
     env:
       - "PROJECT_ID=$PROJECT_ID"
+timeout: 1800s
 
 substitutions:
   _PROJECT: Smart-Pot
