@@ -25,3 +25,6 @@
 [submodule "docker"]
 	path = docker
 	url = https://github.com/Smart-Pot/docker
+[submodule "User-Service"]
+	path = User-Service
+	url = https://github.com/Smart-Pot/User-Service
